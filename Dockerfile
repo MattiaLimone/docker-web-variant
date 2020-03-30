@@ -24,6 +24,6 @@ COPY entrypoint.sh /sbin/entrypoint.sh
 
 Run chmod +x /sbin/entrypoint.sh
 
-EXPOSE 3000
+EXPOSE 80
 
 ENTRYPOINT ["/sbin/entrypoint.sh"]
